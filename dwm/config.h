@@ -62,6 +62,8 @@ static Key keys[] = {
 	{ MODKEY,              XK_b,         togglebar,      {0} },
 	{ MODKEY,              XK_j,         focusstack,     {.i = +1 } },
 	{ MODKEY,              XK_k,         focusstack,     {.i = -1 } },
+	{ MODKEY,              XK_Up,         focusstack,     {.i = +1 } },
+	{ MODKEY,              XK_Down,         focusstack,     {.i = -1 } },
 	{ MODKEY,              XK_i,         incnmaster,     {.i = +1 } },
 	{ MODKEY,              XK_o,         incnmaster,     {.i = -1 } },
 	{ MODKEY,              XK_h,         setmfact,       {.f = -0.05} },
@@ -102,6 +104,8 @@ static Key keys[] = {
 	TAGKEYS(               XK_grave,                     13)
 	{ MODKEY,              XK_w,         cycleview,      {.i = +1 } },
 	{ MODKEY,              XK_q,         cycleview,      {.i = -1 } },
+	{ MODKEY,              XK_Right,         cycleview,      {.i = +1 } },
+	{ MODKEY,              XK_Left,         cycleview,      {.i = -1 } },
 	{ MODKEY,              XK_Tab,       view,           {.ui = ~0 } },
 	{ MODKEY|ShiftMask|ControlMask, XK_Delete, quit,     {0} },
 };
