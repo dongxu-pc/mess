@@ -1,0 +1,5 @@
+*~
+dwm/dwm
+*.o
+dmenu/dmenu
+dmenu/dmenu_path
